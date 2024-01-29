@@ -1,0 +1,6 @@
+User-agent: *
+Allow: *
+Disallow: /content/*
+Disallow: /slots/*
+Disallow: /_next/*
+Host: https://casino-online-is.site/

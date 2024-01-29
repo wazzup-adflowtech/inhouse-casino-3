@@ -1,0 +1,118 @@
+.wrapperRoot {
+    border-top: 1px dotted #c9d8e7;
+    border-bottom: 1px dotted #c9d8e7;
+    padding: 5px 0;
+}
+
+.wrapperRoot ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapperRoot ul li {
+    padding: 10px;
+}
+
+.wrapperRoot ul li i {
+    background-image: url('/sprite-payment-systems.webp');
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.wrapperRoot ul li:nth-child(1) i {
+    width: 85px;
+    height: 60px;
+    background-position: -1114px 0;
+}
+
+.wrapperRoot ul li:nth-child(1):hover i {
+    width: 85px;
+    height: 60px;
+    background-position: -838px -1039px;
+}
+
+.wrapperRoot ul li:nth-child(2) i {
+    width: 88px;
+    height: 60px;
+    background-position: -379px -1039px;
+}
+
+.wrapperRoot ul li:nth-child(2):hover i {
+    width: 88px;
+    height: 60px;
+    background-position: -286px -1039px;
+}
+
+.wrapperRoot ul li:nth-child(3) i {
+    width: 92px;
+    height: 60px;
+    background-position: -907px -974px;
+}
+
+.wrapperRoot ul li:nth-child(3):hover i {
+    width: 92px;
+    height: 60px;
+    background-position: -1004px -974px;
+}
+
+.wrapperRoot ul li:nth-child(4) i {
+    width: 97px;
+    height: 60px;
+    background-position: -205px -974px;
+}
+
+.wrapperRoot ul li:nth-child(4):hover i {
+    width: 97px;
+    height: 60px;
+    background-position: -103px -974px;
+}
+
+.wrapperRoot ul li:nth-child(5) i {
+    width: 142px;
+    height: 60px;
+    background-position: -447px -519px;
+}
+
+.wrapperRoot ul li:nth-child(5):hover i {
+    width: 142px;
+    height: 60px;
+    background-position: -294px -584px;
+}
+
+.wrapperRoot ul li:nth-child(6) i {
+    width: 86px;
+    height: 60px;
+    background-position: -656px -1039px;
+}
+
+.wrapperRoot ul li:nth-child(6):hover i {
+    width: 86px;
+    height: 60px;
+    background-position: -747px -1039px;
+}
+
+.wrapperRoot ul li:nth-child(7) i {
+    width: 129px;
+    height: 60px;
+    background-position: 0 -714px;
+}
+
+.wrapperRoot ul li:nth-child(7):hover i {
+    width: 129px;
+    height: 60px;
+    background-position: -268px -714px;
+}
+
+.wrapperRoot ul li:nth-child(8) i {
+    width: 111px;
+    height: 60px;
+    background-position: -234px -844px;
+}
+
+.wrapperRoot ul li:nth-child(8):hover i {
+    width: 111px;
+    height: 60px;
+    background-position: -350px -844px;
+}

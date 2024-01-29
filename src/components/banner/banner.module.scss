@@ -1,0 +1,102 @@
+.bannerContainerWrapper {
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+}
+
+.imageBannerWrapper {
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    margin-top: 20px;
+    color: transparent;
+}
+
+.bannerContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannerTitleWrapper {
+    margin-bottom: 1rem;
+    margin-right: 0;
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.bannerButtonWrapper {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow,
+        transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow,
+        transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow,
+        transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    -tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1.5rem 3rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+    border-width: 0px;
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    height: -moz-max-content;
+    height: max-content;
+    color: white;
+
+}
+
+@media (min-width: 1024px) {
+    .imageBannerWrapper {
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        margin-top: 0;
+    }
+
+    .bannerTitleWrapper {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imageBannerWrapper {
+        --tw-scale-x: 1.25;
+        --tw-scale-y: 1.25;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        margin-top: 30px;
+    }
+
+    .bannerContainerWrapper {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .bannerContentWrapper {
+        flex-direction: row;
+    }
+
+    .bannerTitleWrapper {
+        margin-bottom: 0;
+        margin-right: 5rem;
+        margin-top: 0;
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 640px) {
+    .imageBannerWrapper {
+        margin-top: 40px;
+    }
+}

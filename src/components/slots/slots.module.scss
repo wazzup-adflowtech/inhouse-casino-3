@@ -1,0 +1,15 @@
+.rootWrapper {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.containerWrapper {
+    padding: 3rem 1.25rem;
+    margin: 0 auto;
+}
+
+.slotsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}

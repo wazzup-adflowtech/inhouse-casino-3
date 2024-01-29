@@ -1,0 +1,532 @@
+.wrapperRoot ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapperRoot ul li {
+    padding: 10px;
+}
+
+.wrapperRoot ul li i {
+    background-image: url('/sprite-partners.webp');
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.wrapperRoot ul li:nth-child(1) i {
+    width: 170px;
+    height: 60px;
+    background-position: -175px -390px;
+}
+
+.wrapperRoot ul li:nth-child(1):hover i {
+    width: 170px;
+    height: 60px;
+    background-position: 0 -390px;
+}
+
+.wrapperRoot ul li:nth-child(2) i {
+    width: 125px;
+    height: 60px;
+    background-position: -931px -65px;
+}
+
+.wrapperRoot ul li:nth-child(2):hover i {
+    width: 125px;
+    height: 60px;
+    background-position: -931px -130px;
+}
+
+.wrapperRoot ul li:nth-child(3) i {
+    width: 156px;
+    height: 60px;
+    background-position: -619px -325px;
+}
+
+.wrapperRoot ul li:nth-child(3):hover i {
+    width: 156px;
+    height: 60px;
+    background-position: -619px -390px;
+}
+
+.wrapperRoot ul li:nth-child(4) i {
+    width: 178px;
+    height: 60px;
+    background-position: -436px 0px;
+}
+
+.wrapperRoot ul li:nth-child(4):hover i {
+    width: 178px;
+    height: 60px;
+    background-position: -436px -65px;
+}
+
+.wrapperRoot ul li:nth-child(5) i {
+    width: 134px;
+    height: 60px;
+    background-position: -784px -585px;
+}
+
+.wrapperRoot ul li:nth-child(5):hover i {
+    width: 134px;
+    height: 60px;
+    background-position: -784px -520px;
+}
+
+.wrapperRoot ul li:nth-child(6) i {
+    width: 134px;
+    height: 60px;
+    background-position: -784px -650px;
+}
+
+.wrapperRoot ul li:nth-child(6):hover i {
+    width: 134px;
+    height: 60px;
+    background-position: -784px -715px;
+}
+
+.wrapperRoot ul li:nth-child(7) i {
+    width: 165px;
+    height: 60px;
+    background-position: -175px -455px;
+}
+
+.wrapperRoot ul li:nth-child(7):hover i {
+    width: 165px;
+    height: 60px;
+    background-position: -345px -455px;
+}
+
+.wrapperRoot ul li:nth-child(8) i {
+    width: 131px;
+    height: 60px;
+    background-position: -410px -780px;
+}
+
+.wrapperRoot ul li:nth-child(8):hover i {
+    width: 131px;
+    height: 60px;
+    background-position: -274px -780px;
+}
+
+.wrapperRoot ul li:nth-child(9) i {
+    width: 103px;
+    height: 60px;
+    background-position: -221px -975px;
+}
+
+.wrapperRoot ul li:nth-child(9):hover i {
+    width: 103px;
+    height: 60px;
+    background-position: -113px -975px;
+}
+
+.wrapperRoot ul li:nth-child(10) i {
+    width: 170px;
+    height: 60px;
+    background-position: -350px -390px;
+}
+
+.wrapperRoot ul li:nth-child(10):hover i {
+    width: 170px;
+    height: 60px;
+    background-position: 0 -455px;
+}
+
+.wrapperRoot ul li:nth-child(11) i {
+    width: 145px;
+    height: 60px;
+    background-position: -452px -715px;
+}
+
+.wrapperRoot ul li:nth-child(11):hover i {
+    width: 145px;
+    height: 60px;
+    background-position: -302px -715px;
+}
+
+.wrapperRoot ul li:nth-child(12) i {
+    width: 159px;
+    height: 60px;
+    background-position: -619px -260px;
+}
+
+.wrapperRoot ul li:nth-child(12):hover i {
+    width: 159px;
+    height: 60px;
+    background-position: -619px -195px;
+}
+
+.wrapperRoot ul li:nth-child(13) i {
+    width: 181px;
+    height: 60px;
+    background-position: -186px -325px;
+}
+
+.wrapperRoot ul li:nth-child(13):hover i {
+    width: 181px;
+    height: 60px;
+    background-position: 0px -325px;
+}
+
+.wrapperRoot ul li:nth-child(14) i {
+    width: 117px;
+    height: 60px;
+    background-position: -122px -910px;
+}
+
+.wrapperRoot ul li:nth-child(14):hover i {
+    width: 117px;
+    height: 60px;
+    background-position: 0px -910px;
+}
+
+.wrapperRoot ul li:nth-child(15) i {
+    width: 146px;
+    height: 60px;
+    background-position: 0px -715px;
+}
+
+.wrapperRoot ul li:nth-child(15):hover i {
+    width: 146px;
+    height: 60px;
+    background-position: -151px -715px;
+}
+
+.wrapperRoot ul li:nth-child(16) i {
+    width: 208px;
+    height: 60px;
+    background-position: -223px 0px;
+}
+
+.wrapperRoot ul li:nth-child(16):hover i {
+    width: 208px;
+    height: 60px;
+    background-position: 0px -130px;
+}
+
+.wrapperRoot ul li:nth-child(17) i {
+    width: 160px;
+    height: 60px;
+    background-position: 0px -520px;
+}
+
+.wrapperRoot ul li:nth-child(17):hover i {
+    width: 160px;
+    height: 60px;
+    background-position: -165px -520px;
+}
+
+.wrapperRoot ul li:nth-child(18) i {
+    width: 128px;
+    height: 60px;
+    background-position: -671px -845px;
+}
+
+.wrapperRoot ul li:nth-child(18):hover i {
+    width: 128px;
+    height: 60px;
+    background-position: -538px -845px;
+}
+
+.wrapperRoot ul li:nth-child(19) i {
+    width: 140px;
+    height: 60px;
+    background-position: -784px -325px;
+}
+
+.wrapperRoot ul li:nth-child(19):hover i {
+    width: 140px;
+    height: 60px;
+    background-position: -784px -260px;
+}
+
+.wrapperRoot ul li:nth-child(20) i {
+    width: 56px;
+    height: 60px;
+    background-position: 0px -1040px;
+}
+
+.wrapperRoot ul li:nth-child(20):hover i {
+    width: 56px;
+    height: 60px;
+    background-position: -525px -390px;
+}
+
+.wrapperRoot ul li:nth-child(21) i {
+    width: 124px;
+    height: 60px;
+    background-position: -931px -260px;
+}
+
+.wrapperRoot ul li:nth-child(21):hover i {
+    width: 124px;
+    height: 60px;
+    background-position: -931px -325px;
+}
+
+.wrapperRoot ul li:nth-child(22) i {
+    width: 149px;
+    height: 60px;
+    background-position: 0px -650px;
+}
+
+.wrapperRoot ul li:nth-child(22):hover i {
+    width: 149px;
+    height: 60px;
+    background-position: -628px -585px;
+}
+
+.wrapperRoot ul li:nth-child(23) i {
+    width: 98px;
+    height: 60px;
+    background-position: -515px -455px;
+}
+
+.wrapperRoot ul li:nth-child(23):hover i {
+    width: 98px;
+    height: 60px;
+    background-position: -753px -975px;
+}
+
+.wrapperRoot ul li:nth-child(24) i {
+    width: 65px;
+    height: 60px;
+    background-position: -1061px -910px;
+}
+
+.wrapperRoot ul li:nth-child(24):hover i {
+    width: 65px;
+    height: 60px;
+    background-position: -1061px -845px;
+}
+
+.wrapperRoot ul li:nth-child(25) i {
+    width: 118px;
+    height: 60px;
+    background-position: -495px -520px;
+}
+
+.wrapperRoot ul li:nth-child(25):hover i {
+    width: 118px;
+    height: 60px;
+    background-position: -804px -845px;
+}
+
+.wrapperRoot ul li:nth-child(26) i {
+    width: 132px;
+    height: 60px;
+    background-position: -137px -780px;
+}
+
+.wrapperRoot ul li:nth-child(26):hover i {
+    width: 132px;
+    height: 60px;
+    background-position: 0px -780px;
+}
+
+.wrapperRoot ul li:nth-child(27) i {
+    width: 102px;
+    height: 60px;
+    background-position: -329px -975px;
+}
+
+.wrapperRoot ul li:nth-child(27):hover i {
+    width: 102px;
+    height: 60px;
+    background-position: -436px -975px;
+}
+
+.wrapperRoot ul li:nth-child(28) i {
+    width: 190px;
+    height: 60px;
+    background-position: -195px -195px;
+}
+
+.wrapperRoot ul li:nth-child(28):hover i {
+    width: 190px;
+    height: 60px;
+    background-position: 0px -195px;
+}
+
+.wrapperRoot ul li:nth-child(29) i {
+    width: 130px;
+    height: 60px;
+    background-position: -135px -845px;
+}
+
+.wrapperRoot ul li:nth-child(29):hover i {
+    width: 130px;
+    height: 60px;
+    background-position: -546px -780px;
+}
+
+.wrapperRoot ul li:nth-child(30) i {
+    width: 120px;
+    height: 60px;
+    background-position: -931px -520px;
+}
+
+.wrapperRoot ul li:nth-child(30):hover i {
+    width: 120px;
+    height: 60px;
+    background-position: -931px -650px;
+}
+
+.wrapperRoot ul li:nth-child(31) i {
+    width: 108px;
+    height: 60px;
+    background-position: -816px -780px;
+}
+
+.wrapperRoot ul li:nth-child(31):hover i {
+    width: 108px;
+    height: 60px;
+    background-position: 0px -975px;
+}
+
+.wrapperRoot ul li:nth-child(32) i {
+    width: 100px;
+    height: 60px;
+    background-position: -648px -975px;
+}
+
+.wrapperRoot ul li:nth-child(32):hover i {
+    width: 100px;
+    height: 60px;
+    background-position: -543px -975px;
+}
+
+.wrapperRoot ul li:nth-child(33) i {
+    width: 120px;
+    height: 60px;
+    background-position: -931px -390px;
+}
+
+.wrapperRoot ul li:nth-child(33):hover i {
+    width: 120px;
+    height: 60px;
+    background-position: -931px -715px;
+}
+
+.wrapperRoot ul li:nth-child(34) i {
+    width: 177px;
+    height: 60px;
+    background-position: -436px -130px;
+}
+
+.wrapperRoot ul li:nth-child(34):hover i {
+    width: 177px;
+    height: 60px;
+    background-position: -436px -195px;
+}
+
+.wrapperRoot ul li:nth-child(35) i {
+    width: 125px;
+    height: 60px;
+    background-position: -931px -195px;
+}
+
+.wrapperRoot ul li:nth-child(35):hover i {
+    width: 125px;
+    height: 60px;
+    background-position: -931px 0px;
+}
+
+.wrapperRoot ul li:nth-child(36) i {
+    width: 139px;
+    height: 60px;
+    background-position: -784px -390px;
+}
+
+.wrapperRoot ul li:nth-child(36):hover i {
+    width: 139px;
+    height: 60px;
+    background-position: -784px -455px;
+}
+
+.wrapperRoot ul li:nth-child(37) i {
+    width: 148px;
+    height: 60px;
+    background-position: -154px -650px;
+}
+
+.wrapperRoot ul li:nth-child(37):hover i {
+    width: 148px;
+    height: 60px;
+    background-position: -460px -650px;
+}
+
+.wrapperRoot ul li:nth-child(38) i {
+    width: 153px;
+    height: 60px;
+    background-position: -619px -520px;
+}
+
+.wrapperRoot ul li:nth-child(38):hover i {
+    width: 153px;
+    height: 60px;
+    background-position: -619px -455px;
+}
+
+.wrapperRoot ul li:nth-child(39) i {
+    width: 115px;
+    height: 60px;
+    background-position: -606px -910px;
+}
+
+.wrapperRoot ul li:nth-child(39):hover i {
+    width: 115px;
+    height: 60px;
+    background-position: -486px -910px;
+}
+
+.wrapperRoot ul li:nth-child(40) i {
+    width: 116px;
+    height: 60px;
+    background-position: -365px -910px;
+}
+
+.wrapperRoot ul li:nth-child(40):hover i {
+    width: 116px;
+    height: 60px;
+    background-position: -244px -910px;
+}
+
+.wrapperRoot ul li:nth-child(41) i {
+    width: 187px;
+    height: 60px;
+    background-position: 0px -260px;
+}
+
+.wrapperRoot ul li:nth-child(41):hover i {
+    width: 187px;
+    height: 60px;
+    background-position: -192px -260px;
+}
+
+.wrapperRoot ul li:nth-child(42) i {
+    width: 119px;
+    height: 60px;
+    background-position: -931px -780px;
+}
+
+.wrapperRoot ul li:nth-child(42):hover i {
+    width: 119px;
+    height: 60px;
+    background-position: -931px -845px;
+}
+
+.wrapperRoot ul li:nth-child(43) i {
+    width: 87px;
+    height: 60px;
+    background-position: -1061px -325px;
+}
+
+.wrapperRoot ul li:nth-child(43):hover i {
+    width: 87px;
+    height: 60px;
+    background-position: -1061px -390px;
+}

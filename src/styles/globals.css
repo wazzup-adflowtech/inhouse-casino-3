@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ç .app {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
